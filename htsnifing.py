@@ -20,7 +20,7 @@ protocol = args.protocol
 
 def sniff_packets(iface):
     if iface:
-        sniff(filter = 'dst port 80', prn = process_packet, iface = iface, store=False)
+        sniff(filter = '', prn = process_packet, iface = iface, store=False)
     else:
         sniff(prn = process_packet, store = False)
 
