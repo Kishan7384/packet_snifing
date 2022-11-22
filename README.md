@@ -1,10 +1,10 @@
 
-                                                      **ABOUT**
+                   **ABOUT**
 --------------------------------------------------------------------------------------------------------------------------------
 This tool is Basically use for Packet Snifing in Man In The Middle attack. Here we can intercept the HTTP header, TCP header, IP header and also Ethernet header. Here we can filter the port also by edit the htsnifing.py file "sniff(filter = '<dst/src port port_number>', prn = process_packet, iface = iface, store=False)". Here we also can dump the all http request data.
 
 --------------------------------------------------------------------------------------------------------------------------------
-                                                   **INSTALLATION**
+                **INSTALLATION**
 --------------------------------------------------------------------------------------------------------------------------------
 packet_snifing required python 3.10.0 to install Successfully. To install, just run the below command.
 
@@ -15,7 +15,7 @@ cd packet_snifing
 python3 -m pip install -r requirements.txt
 
 -------------------------------------------------------------------------------------------------------------------------------
-                                                      **USAGE**
+                    **USAGE**
 -------------------------------------------------------------------------------------------------------------------------------
 
 python3 htsnifing.py -h
